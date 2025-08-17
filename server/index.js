@@ -17,6 +17,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -83,7 +84,7 @@ const corsOptions = {
       'http://localhost:3000', // Development
       'http://localhost:5173',
       'http://192.168.162.67:3000', // Local network IP
-      'https://your-frontend-domain.vercel.app', // Replace with your actual Vercel domain
+      'https://ai-powered-notes-summary-sharer.vercel.app/', // Replace with your actual Vercel domain
       process.env.FRONTEND_URL, // Environment variable for production
     ].filter(Boolean);
 
