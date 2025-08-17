@@ -84,7 +84,7 @@ const corsOptions = {
       'http://localhost:3000', // Development
       'http://localhost:5173',
       'http://192.168.162.67:3000', // Local network IP
-      'https://ai-powered-notes-summary-sharer.vercel.app/', // Replace with your actual Vercel domain
+      'https://ai-powered-notes-summary-sharer.vercel.app', // Replace with your actual Vercel domain
       process.env.FRONTEND_URL, // Environment variable for production
     ].filter(Boolean);
 
