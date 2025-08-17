@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 
 // Get API URL from environment or use default
-const API_URL = ' https://ai-powered-notes-summary-sharer.onrender.com';
+const API_URL = 'https://ai-powered-notes-summary-sharer-1.onrender.com';
 
 function App() {
   const [text, setText] = useState('');
